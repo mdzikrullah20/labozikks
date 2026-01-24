@@ -1,0 +1,9 @@
+import LabozikksHeader from "./Components/Navbar";
+
+export default function Home() {
+  return (
+   <>
+   <LabozikksHeader />
+   </>
+  );
+}
