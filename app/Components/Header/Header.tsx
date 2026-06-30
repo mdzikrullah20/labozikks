@@ -72,13 +72,13 @@ const Header: React.FC = () => {
             {/* SEARCH BUTTON */}
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className="p-2 hover:text-cyan-600 cursor-pointer"
+              className="p-2 text-black cursor-pointer"
             >
               <Search className="w-5 h-5" />
             </button>
 
             {/* CART */}
-            <button className="relative p-2 hover:text-cyan-600 cursor-pointer">
+            <button className="relative p-2 text-black cursor-pointer">
               <ShoppingCart className="w-5 h-5" />
               <span className="absolute -top-1 -right-1 w-5 h-5 bg-cyan-500 text-white text-xs rounded-full flex items-center justify-center">
                 0
@@ -109,7 +109,7 @@ const Header: React.FC = () => {
               placeholder="Search services, blogs, portfolio..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full border border-slate-300 rounded-full px-5 py-3 outline-none focus:border-cyan-500"
+              className="w-full border border-slate-300 rounded-full text-black px-5 py-3 outline-none focus:border-cyan-500"
             />
 
             <button
