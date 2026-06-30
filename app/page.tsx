@@ -9,13 +9,10 @@ import Footer from "./Components/Footer"
   export default function Home() {
   return (
    <>
-   <TopBar />
-   <MainHeader  />
    <Homepage />
    <AboutSection/>
    <ServicesSection />
    <WhyChooseUs/>
-   <Footer/>
    </>
   );
 }
